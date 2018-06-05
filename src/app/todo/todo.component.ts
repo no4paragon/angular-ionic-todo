@@ -17,6 +17,10 @@ export class TodoComponent {
   }
 
   addTodo() {
+    if (!this.newTodo.title) {
+      return;
+    }
+
     this._todoServe.addTodo(this.newTodo);
     this.newTodo = new Todo();
   }
