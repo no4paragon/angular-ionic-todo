@@ -42,8 +42,14 @@ ionic serve
 
 The following links listed below are from Ionic's official website, and will provide important tools and guidelines to help build your Ionic mobile app:
 
-- [Ionic Home](https://ionicframework.com/docs/)
+#### Important Components
+- Main [Ionic Components](https://ionicframework.com/docs/components/#overview)
 
-- [Ionic Components](https://ionicframework.com/docs/components/#overview)
+The following links below are some of Ionic's components that would be especially useful for building your project.
 
-- [Ionic Native](https://ionicframework.com/docs/native/)
+- [Ionic Buttons](https://ionicframework.com/docs/components/#buttons)
+- [Ionic Grid](https://ionicframework.com/docs/components/#grid)
+- [Ionic Inputs](https://ionicframework.com/docs/components/#inputs)
+- [Ionic Lists](https://ionicframework.com/docs/components/#lists)
+- [Ionic Navigation](https://ionicframework.com/docs/components/#navigation)
+
