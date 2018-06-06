@@ -1,107 +1,37 @@
 Getting started
 ----------------------------------
 
-#### Angular-CLI version
+#### Installing Ionic
 
-This seed version provides the following out of the box:
-
-- Angular 2 application with [@clr/icons](https://www.npmjs.com/package/@clr/icons), [@clr/ui](https://www.npmjs.com/package/@clr/ui) and [@clr/angular](https://www.npmjs.com/package/@clr/angular) included
-- Development and production builds
-- Unit test setup with Jasmine and Karma
-- End-to-end test setup with Protractor
-- SASS processor
-- TSLint
-- And other goodies that come with [Angular-CLI](https://github.com/angular/angular-cli#generating-and-serving-an-angular2-project-via-a-development-server) (v1.0.0-beta.20-4)
-
-#### Installation
-*Prerequisite*: Please install Angular-CLI by following [these instructions](https://github.com/angular/angular-cli#installation).
-*Note*: Even though it's optional, we recommend you to use [yarn](https://yarnpkg.com/) instead of `npm install` for installing the dependencies.
+If you have not already installed Ionic into your local environment, please install it through typing the following command into your bash:
 
 ```bash
-git clone https://github.com/vmware/clarity-seed.git
-cd clarity-seed
-
-# install the project's dependencies
-yarn # or run "npm install"
-
-# starts the application in dev mode and watches your files for livereload
-ng serve
+npm install -g ionic
 ```
 
-#### Using Angular-CLI
+#### Starting Your Project
+After installing Ionic to your local environment, you will have a number of different ways to create your starting project through Ionic's cli.
+
 ```bash
-# generating a new component
-ng g component my-new-component
+ionic start <yourApp> blank
 
-# generating a new directive
-ng g directive my-new-directive
+ionic start <yourApp> tabs
 
-# to learn more about Angular-CLI commands and their usages
-ng help
+ionic start <yourApp> sidemenu
 ```
 
-For comprehensive documentation on Angular-CLI, please see their [github repository](https://github.com/angular/angular-cli).
+The first command creates a blank Ionic project for you to work with, while the last two creates an Ionic project with pre-built features, tabs and sidemenu respectively.
 
-#### Test and build scripts
+#### Serving Your App
+
+To run your app, cd into your project's directory and serve it through typing in the following command into your bash.
 
 ```bash
-# running unit tests
-ng test
-
-# running e2e tests
-ng e2e
-
-# dev build
-ng build
-
-# prod build
-ng build --prod
+cd <yourApp>
+ionic serve
 ```
 
 ## Documentation
 
 
 For documentation on the Clarity Design System, including a list of components and example usage, see [our website](https://vmware.github.io/clarity).
-
-
-#### Directory structure
-```
-.
-├── README.md
-
-├── karma.conf.js              <- configuration of the test runner
-├── package.json               <- dependencies of the project
-├── protractor.config.js       <- e2e tests configuration
-├── src/                       <- source code of the application
-│   ├── app/
-│   │   └── component/
-│   │       └── <component>.component.html
-│   │       └── <component>.component.scss
-│   │       └── <component>.component.spec.ts
-│   │       └── <component>.component.ts
-│   │   └── app.component.html
-│   │   └── app.component.scss
-│   │   └── app.component.ts
-│   │   └── app.e2e-spec.js    <- sample e2e spec file
-│   │   └── app.module.ts
-│   │   └── app.routing.ts
-│   │   └── main.ts            <- boostrap file for the angular app
-│   └── index.html
-├── angular-cli.json           <- configuration of the angular-cli
-├── tsconfig.json              <- configuration of the typescript project
-├── tslint.json                <- sample configuration file for tslint
-└── yarn.lock
-```
-
-
-## Contributing
-
-The Clarity project team welcomes contributions from the community. For more detailed information, see [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-The clarity-seed project is licensed under the MIT license.
-
-## Feedback
-
-If you find a bug or want to request a new feature, please open a [GitHub issue](https://github.com/vmware/clarity-seed/issues).
