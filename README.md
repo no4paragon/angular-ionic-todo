@@ -9,6 +9,7 @@ If you have not already installed Ionic into your local environment, please inst
 npm install -g ionic
 ```
 
+
 #### Starting Your Project
 After installing Ionic to your local environment, you will have a number of different ways to create your starting project through Ionic's cli.
 
@@ -22,6 +23,7 @@ ionic start <yourApp> sidemenu
 
 The first command creates a blank Ionic project for you to work with, while the last two creates an Ionic project with pre-built features, tabs and sidemenu respectively.
 
+
 #### Serving Your App
 
 To run your app, cd into your project's directory and serve it through typing in the following command into your bash.
@@ -30,6 +32,9 @@ To run your app, cd into your project's directory and serve it through typing in
 cd <yourApp>
 ionic serve
 ```
+
+
+
 
 ## Documentation
 
