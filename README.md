@@ -19,6 +19,10 @@ ionic start <yourApp> blank
 ionic start <yourApp> tabs
 
 ionic start <yourApp> sidemenu
+
+ionic start <yourApp> super
+
+ionic start <yourApp> tutorial
 ```
 
 The first command creates a blank Ionic project for you to work with, while the last two creates an Ionic project with pre-built features, tabs and sidemenu respectively.
@@ -34,9 +38,10 @@ ionic serve
 ```
 
 
+# Documentation
 
+The following links listed bellow are from Ionic's official website, and will provide important tools and guidelines to help build your Ionic mobile app:
 
-## Documentation
-
-
-For documentation on the Clarity Design System, including a list of components and example usage, see [our website](https://vmware.github.io/clarity).
+-[Ionic Home](https://ionicframework.com/docs/)
+-[Ionic Components](https://ionicframework.com/docs/components/#overview)
+-[Ionic Native](https://ionicframework.com/docs/native/)
