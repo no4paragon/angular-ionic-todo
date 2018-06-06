@@ -40,7 +40,7 @@ ionic serve
 
 # Documentation
 
-The following links listed bellow are from Ionic's official website, and will provide important tools and guidelines to help build your Ionic mobile app:
+The following links listed below are from Ionic's official website, and will provide important tools and guidelines to help build your Ionic mobile app:
 
 - [Ionic Home](https://ionicframework.com/docs/)
 
