@@ -27,6 +27,8 @@ ionic start <yourApp> tutorial
 
 The first command creates a blank Ionic project for you to work with, while the last two creates an Ionic project with pre-built features, tabs and sidemenu respectively.
 
+But for your project, lets start with the third command for sidemenu
+
 
 #### Serving Your App
 
@@ -42,7 +44,14 @@ ionic serve
 
 The following links listed below are from Ionic's official website, and will provide important tools and guidelines to help build your Ionic mobile app:
 
+#### Tutorial
+
+To better understand Ionic components, please read the tutorial linked below.
+
+- [Understanding Components](https://coursetro.com/posts/code/37/Understanding-Ionic-2-Components-(Tutorial)
+
 #### Important Components
+
 - Main [Ionic Components](https://ionicframework.com/docs/components/#overview)
 
 The following links below are some of Ionic's components that would be especially useful for building your project.
