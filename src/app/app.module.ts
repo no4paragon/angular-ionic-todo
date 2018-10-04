@@ -7,7 +7,6 @@ import { ClarityModule } from '@clr/angular';
 import { AppComponent } from './app.component';
 import { ROUTING } from "./app.routing";
 import { HomeComponent } from "./home/home.component";
-import { AboutComponent } from "./about/about.component";
 import { TodoComponent } from './todo/todo.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
@@ -15,7 +14,6 @@ import { RegistrationComponent } from './registration/registration.component';
 @NgModule({
     declarations: [
         AppComponent,
-        AboutComponent,
         HomeComponent,
         TodoComponent,
         LoginComponent,
